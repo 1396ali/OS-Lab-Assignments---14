@@ -101,7 +101,7 @@ class Calculator(QMainWindow):
 
     def equal(self):
         
-        res = self.input_1 + self.input_2
+        
         self.ui.main_text.setText(str(res))
 
 
