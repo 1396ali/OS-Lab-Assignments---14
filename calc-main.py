@@ -48,59 +48,59 @@ class Calculator(QMainWindow):
 
     
     def add(self):
-        self.input_1 = int(self.ui.main_text.text())
+        
         self.ui.main_text.setText("")
 
     def multiply(self):
-        self.input_1 = int(self.ui.main_text.text())
+        
         self.ui.main_text.setText("")
     
     def divide(self):
-        self.input_1 = int(self.ui.main_text.text())
+        
         self.ui.main_text.setText("")
 
     def mines(self):
-        self.input_1 = int(self.ui.main_text.text())
+        
         self.ui.main_text.setText("")
 
     def percent(self):
-        self.input_1 = int(self.ui.main_text.text())
+        
         self.ui.main_text.setText("")
 
     def sqrt(self):
-        self.input_1 = int(self.ui.main_text.text())
+        
         self.ui.main_text.setText("")
 
     def log(self):
-        self.input_1 = int(self.ui.main_text.text())
+        
         self.ui.main_text.setText("")
 
     def sin(self):
-        self.input_1 = int(self.ui.main_text.text())
+        
         self.ui.main_text.setText("")
 
     def cos(self):
-        self.input_1 = int(self.ui.main_text.text())
+        
         self.ui.main_text.setText("")
     
     def tan(self):
-        self.input_1 = int(self.ui.main_text.text())
+        
         self.ui.main_text.setText("")
 
     def cot(self):
-        self.input_1 = int(self.ui.main_text.text())
+        
         self.ui.main_text.setText("")
 
 
     def dot(self):
-        self.input_1 = int(self.ui.main_text.text())
+        
         self.ui.main_text.setText("")
 
     def clear(self):
-        self.ui.main_text.setText("")
+        
 
     def equal(self):
-        self.input_2 = int(self.ui.main_text.text())
+        
         res = self.input_1 + self.input_2
         self.ui.main_text.setText(str(res))
 
