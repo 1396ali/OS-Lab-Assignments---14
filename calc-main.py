@@ -218,6 +218,8 @@ class Calculator(QMainWindow):
             self.res = cosh(self.input_1)
         elif self.option == 'tan':
             self.res = tanh(self.input_1)
+        elif self.option == 'cot':
+            self.res = 1/tanh(self.input_1)
 
         elif self.option == 'sqrt':
             self.res = sqrt(self.input_1)
