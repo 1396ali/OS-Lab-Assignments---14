@@ -38,7 +38,7 @@ class Calculator(QMainWindow):
         self.ui.multiply_key.clicked.connect(self.multiply)
         self.ui.divide_key.clicked.connect(self.divide)
         self.ui.percent_key.clicked.connect(self.percent)
-        self.ui.dot_key.clicked.connect(self.dot)
+
         self.ui.sqrt_key.clicked.connect(self.sqrt)
         self.ui.log_key.clicked.connect(self.log)
 
